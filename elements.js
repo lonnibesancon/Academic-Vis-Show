@@ -58,9 +58,9 @@ function pubCircle(obj, xPos, yPos, circleSize, color){
       noFill();
       strokeWeight(circleSize/4)
       ellipse(xPos, yPos, circleSize*2/5, circleSize*2/5);
-
     }
   }
+
 }
 
 function citationCircle(obj, xPos, yPos){
@@ -80,9 +80,11 @@ function citationCircle(obj, xPos, yPos){
 
 // function to draw the axis
 
-function axis(mobiObj){
+function axis(mobiObj, x, y){
   //Draw Education background
   var padding = 10;
+  var x_ = x;
+  var y_ = y;
 
   for (var i = 0; i < mobiObj.length; i++) {
 
@@ -97,7 +99,7 @@ function axis(mobiObj){
     var endDate_month = moment(endDate, "MM/YYYY").get('month');
 
     //calculate the period start point and duration
-    var startLocation = xStart + (startDate_year-2012)*intersect + (startDate_month-1)*intersect/12;
+    var startLocation = x_ + xStart + (startDate_year-2012)*intersect + (startDate_month-1)*intersect/12;
     var duration = (endDate_year - startDate_year)*intersect + (endDate_month - startDate_month)*intersect/12;
 
     var c;
@@ -106,12 +108,12 @@ function axis(mobiObj){
     } else {
       c = 60;
     }
-    mobilityBg(startLocation, yPosition, duration, 4, c);
+    mobilityBg(x_+startLocation, y_+yPosition, duration, 4, c);
 
     fill(0);
     textSize(10);
     textStyle(BOLDITALIC);
-    text(positionName+"-"+institute, startLocation, yPosition+16);
+    text(positionName+"-"+institute, x_+startLocation, y_+yPosition+16);
     // textStyle(ITALIC);
     // text(institute, startLocation+padding+40, yPosition+13);
   }
@@ -119,26 +121,26 @@ function axis(mobiObj){
   //Draw Axis
   stroke(140);
   strokeWeight(0.5);
-  line(xStart, yPosition, axisWidth, yPosition);
+  line(x_+xStart, y_+yPosition, axisWidth, y_+yPosition);
 
   //Draw Axis section and year
   fill(0);
   for (var i = 0; i < 8; i++) {
     stroke(255);
     strokeWeight(1);
-    line(xStart+i*intersect, yPosition, xStart+i*intersect, yPosition+4);
+    line(x_+xStart+i*intersect, y_+yPosition, x_+xStart+i*intersect, y_+yPosition+4);
     stroke(50);
     strokeWeight(0.5);
-    line(xStart+i*intersect, yPosition-3, xStart+i*intersect, yPosition);
+    line(x_+xStart+i*intersect, y_+yPosition-3, x_+xStart+i*intersect, y_+yPosition);
     noStroke();
     textStyle(NORMAL);
     textSize(9);
-    text(2012+i, xStart+intersect/2-10+i*intersect, yPosition+30);
+    text(2012+i, x_+xStart+intersect/2-10+i*intersect, y_+yPosition+30);
 
     //draw the line
     stroke(200);
     strokeWeight(0.5);
-    line(xStart+i*intersect, yPosition, xStart+i*intersect, yPosition-40);
+    line(x_+xStart+i*intersect, y_+yPosition, x_+xStart+i*intersect, y_+yPosition-40);
   }
 }
 
@@ -147,6 +149,66 @@ function mobilityBg(x, y , width, height, c){
   rectMode(CORNER);
   fill(c);
   rect(x, y, width, height);
+
+}
+
+function createTooltip(x, y, obj){
+
+  var padding = 16;
+  var margin = 20;
+  var width = 300;
+  var height =200;
+
+  rectMode(CORNER);
+  noStroke();
+  fill(250);
+  rect(x, y, width, height);
+
+  //Line
+  fill(0);
+  stroke(0);
+  strokeWeight(2);
+  line(x, y, x+width, y);
+  strokeWeight(1);
+  line(x, y+height, x+width, y+height);
+
+  //Line 1
+  noStroke();
+  textStyle(BOLDITALIC);
+  textSize(11);
+  var type = obj.Category;
+  text(type+" Paper", x+padding, y+padding*1.5);
+  let tWidth = textWidth(type+" Paper");
+  if (obj.WithAdvisor == "Yes") {
+    fill("#E4176D");
+    text("With Ph.D Advisor", x+padding+tWidth+10, y+padding*1.5);
+  }else {
+    fill("#009EDE");
+    text("Without Ph.D Advisor",x+padding+tWidth+10, y+padding*1.5);
+  }
+
+  //Title
+  fill(0);
+  textSize(15);
+  textStyle(BOLD);
+  // rectMode(CORNER);
+  text(obj.Title, x+padding, y+padding+30, width-2*padding, 40);
+
+  //Detail
+  textSize(11);
+  textStyle(NORMAL);
+  text("Published in "+obj.Month+"/"+obj.Year, x+padding, y+padding+90);
+  text(obj.JCName, x+padding, y+padding+96, width-2*padding, 24);
+  text("Authors:", x+padding, y+padding+140, width-2*padding);
+  text(obj.Authors,x+padding, y+padding+155, width-2*padding);
+
+
+
+
+
+
+
+
 
 }
 
