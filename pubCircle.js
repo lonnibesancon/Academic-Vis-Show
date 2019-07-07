@@ -32,7 +32,7 @@ class PubCircle {
         ellipse(this.xPos, this.yPos, this.circleSize, this.circleSize);
       }else {
         rectMode(CENTER);
-        rect(this.xPos, this.yPos, this.circleSize, this.circleSize);
+        rect(this.xPos, this.yPos, this.circleSize*0.93, this.circleSize*0.93);
       }
 
     }
