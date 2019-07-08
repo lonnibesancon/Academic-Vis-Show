@@ -47,7 +47,7 @@ function vis(x, y, applicantInfo, publicationInfo){
           if (singlePubArray[y][m][i].Rating == 'A*') {
             circleSize = circleSize*2;
           }else if (singlePubArray[y][m][i].Rating == 'A') {
-            circleSize = circleSize*1,7;
+            circleSize = circleSize*1.7;
           }else if (singlePubArray[y][m][i].Rating == 'B') {
             circleSize = circleSize*1.3;
           }else if (singlePubArray[y][m][i].Rating == 'C') {
@@ -107,7 +107,7 @@ function vis_setup(x, y, applicantInfo, publicationInfo){
           if (singlePubArray[y][m][i].Rating == 'A*') {
             circleSize = circleSize*2;
           }else if (singlePubArray[y][m][i].Rating == 'A') {
-            circleSize = circleSize*1,7;
+            circleSize = circleSize*1.7;
           }else if (singlePubArray[y][m][i].Rating == 'B') {
             circleSize = circleSize*1.3;
           }else if (singlePubArray[y][m][i].Rating == 'C') {

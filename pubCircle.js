@@ -106,7 +106,7 @@ function pubCircle(obj, xPos, yPos, circleSize, color){
       strokeWeight(0.5);
       checkColor_independence(obj);
       fill(color);
-      ellipse(xPos, yPos, circleSize, circleSize);
+      ellipse(xPos, yPos, circleSize*1.12, circleSize*1.12);
       checkColor_independence(obj);
       noFill();
       strokeWeight(circleSize/4)

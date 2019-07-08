@@ -7,7 +7,7 @@ function citationCircle(obj, xPos, yPos){
   var exponent = 0.5/stevensExponent;
   var max_radius = 130;
 
-  var backCircleSize = map(Math.pow(obj.Citation, exponent), 0, Math.pow(50, exponent), 4, max_radius);
+  var backCircleSize = map(Math.pow(obj.Citation, exponent), 0, Math.pow(40, exponent), 4, max_radius);
 
   fill('rgba(97, 163, 163, 0.2)');
   noStroke();
@@ -117,10 +117,10 @@ function createTooltip(x, y, obj){
   text(type+" Paper", x+padding, y+padding*1.5);
   let tWidth = textWidth(type+" Paper");
   if (obj.WithAdvisor == "Yes") {
-    fill("#E4176D");
+    fill("#4BB7DB");
     text("With Ph.D Advisor", x+padding+tWidth+10, y+padding*1.5);
   }else {
-    fill("#009EDE");
+    fill("#E4176D");
     text("Without Ph.D Advisor",x+padding+tWidth+10, y+padding*1.5);
   }
 
@@ -148,7 +148,10 @@ function createTooltip(x, y, obj){
 
   text("Authors:", x+padding, y+padding+140, width-2*padding);
   text(obj.Authors,x+padding, y+padding+146, width-2*padding, 24);
-
+  // var authorIndex = obj.Authors.indexOf(obj.Author);
+  // stroke(0);
+  // strokeWeight(1);
+  // line(x+padding+authorIndex*8, y+padding+158,x+padding+authorIndex*8+20 ,y+padding+158);
 
 
 
@@ -173,17 +176,17 @@ function compare(property){
 
 //Function of check color（For Design C）
 function checkColor_independence(obj){
-  let color_i = color('rgba(0, 158, 222, 0.9)');
-  let color_d = color('rgba(228, 23, 109, 0.9)');
+  let color_d = color('rgba(65, 184, 224, 0.9)');
+  let color_i = color('rgba(228, 23, 109, 0.9)');
   // if (obj.Type == "Paper") {
     if (obj.WithAdvisor == 'No') {
       fill(color_i);
       stroke(color_i);
-      return color('rgba(52, 204, 255, 0.9)');
+      return color('rgba(255, 112, 162, 0.9)');
     } else {
       fill(color_d);
       stroke(color_d);
-      return color('rgba(255, 112, 162, 0.9)');
+      return color('rgba(112, 208, 240, 0.9)');
     }
   // }else {
   //   fill('rgba(152, 168, 191, 0.9)');
