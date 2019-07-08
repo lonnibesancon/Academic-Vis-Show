@@ -10,7 +10,7 @@ var pubCircle_index = 0;
 
 
 function setup() {
-  var canvas = createCanvas(1400, 640);
+  var canvas = createCanvas(1400, 700);
   canvas.parent('design');
   textFont('Times New Roman');
   background(255);
