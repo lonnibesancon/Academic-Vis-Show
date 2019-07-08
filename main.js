@@ -10,7 +10,7 @@ var pubCircle_index = 0;
 
 
 function setup() {
-  var canvas = createCanvas(1500, 1000);
+  var canvas = createCanvas(1400, 640);
   canvas.parent('design');
   textFont('Times New Roman');
   background(255);
@@ -24,6 +24,7 @@ function draw() {
     for (var i = 0; i < applicantData.length; i++) {
       vis(0, (i+1)*100, applicantData[i], pubArray[i]);
       mouseOver();
+
     }
   }
 }

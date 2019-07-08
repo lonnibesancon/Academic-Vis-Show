@@ -1265,6 +1265,7 @@
     "Publication": [
       {
         "Type": "Workshop",
+        "Title":"Information Theory: An Analysis and Design Tool for HCI",
         "Category": "Conference",
         "JCName": "CHI'19 Workshop on Computational Modeling in Human-Computer Interaction",
         "Rating": "/",
@@ -1279,6 +1280,7 @@
       },
       {
         "Type": "Paper",
+        "Title":"BIGFile: Bayesian Information Gain for Fast File Retrieval",
         "Category": "Conference",
         "JCName": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
         "Rating": "A*",
@@ -1293,6 +1295,7 @@
       },
       {
         "Type": "Paper",
+        "Title":"Information-Theoretic Analysis of Human Performance for Command Selection",
         "Category": "Conference",
         "JCName": "IFIP Conference on Human-Computer Interaction",
         "Rating": "A",
@@ -1307,6 +1310,7 @@
       },
       {
         "Type": "Paper",
+        "Title":"Effects of Frequency Distribution on Linear Menu Performance",
         "Category": "Conference",
         "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
         "Rating": "A*",
@@ -1321,6 +1325,7 @@
       },
       {
         "Type": "Paper",
+        "Title":"BIGnav: Bayesian Information Gain for Guiding Multiscale Navigation",
         "Category": "Conference",
         "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
         "Rating": "A*",
@@ -1335,6 +1340,7 @@
       },
       {
         "Type": "Workshop",
+        "Title":"A Bayesian Experimental Design Approach Maximizing Information Gain for Human-Computer Interaction",
         "Category": "Conference",
         "JCName": "ITA 2017-IEEE Information Theory and Applications Workshop",
         "Rating": "/",
@@ -1349,6 +1355,7 @@
       },
       {
         "Type": "Paper",
+        "Title":"SleepExplorer: a visualization tool to make sense of correlations between personal sleep data and contextual factors",
         "Category": "Journal",
         "JCName": "Personal and Ubiquitous Computing",
         "Rating": "B",
@@ -1363,6 +1370,7 @@
       },
       {
         "Type": "Paper",
+        "Title":"In bed with technology: challenges and opportunities for sleep tracking",
         "Category": "Conference",
         "JCName": "Proceedings of the Annual Meeting of the Australian Special Interest Group for Computer Human Interaction",
         "Rating": "N",
@@ -1377,6 +1385,7 @@
       },
       {
         "Type": "Chapter",
+        "Title":"Designing intelligent sleep analysis systems for automated contextual exploration on personal sleep-tracking data",
         "Category": "Conference",
         "JCName": "JSAI International Symposium on Artificial Intelligence",
         "Rating": "/",

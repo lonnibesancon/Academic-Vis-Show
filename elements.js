@@ -1,68 +1,5 @@
 //Element drawing package------------------
 
-function pubCircle(obj, xPos, yPos, circleSize, color){
-
-  var authorNum = obj.AuthorCount;
-  // var order = obj.Authors.indexOf('P Dragicevic');
-  var order = obj.Order;
-
-  if (authorNum == 1) {
-    noStroke();
-    checkColor_independence(obj);
-    ellipse(xPos,yPos, circleSize, circleSize);
-
-  } else if (authorNum == 2) {
-
-    if (order == 0) {
-      strokeWeight(circleSize/2.3);
-      checkColor_independence(obj);
-      fill(color);
-      ellipse(xPos, yPos, circleSize, circleSize);
-      noStroke();
-
-    }else {
-      strokeWeight(0.5);
-      checkColor_independence(obj);
-      fill(color);
-      ellipse(xPos, yPos, circleSize, circleSize);
-      checkColor_independence(obj);
-      ellipse(xPos, yPos, circleSize/2, circleSize/2);
-    }
-
-  } else {
-    if (order == 1) {
-      strokeWeight(circleSize/4);
-      checkColor_independence(obj);
-      fill(color);
-      ellipse(xPos, yPos, circleSize, circleSize);
-      strokeWeight(0.5);
-      noFill();
-      ellipse(xPos, yPos, circleSize/3, circleSize/3);
-      noStroke();
-
-    } else if (order == authorNum) {
-
-      strokeWeight(0.5);
-      checkColor_independence(obj);
-      fill(color);
-      ellipse(xPos, yPos, circleSize, circleSize);
-      checkColor_independence(obj);
-      ellipse(xPos, yPos, circleSize/3, circleSize/3);
-
-    } else {
-      strokeWeight(0.5);
-      checkColor_independence(obj);
-      fill(color);
-      ellipse(xPos, yPos, circleSize, circleSize);
-      checkColor_independence(obj);
-      noFill();
-      strokeWeight(circleSize/4)
-      ellipse(xPos, yPos, circleSize*2/5, circleSize*2/5);
-    }
-  }
-
-}
-
 function citationCircle(obj, xPos, yPos){
 
 
@@ -187,6 +124,11 @@ function createTooltip(x, y, obj){
     text("Without Ph.D Advisor",x+padding+tWidth+10, y+padding*1.5);
   }
 
+  //citation
+  fill(0);
+  textStyle(NORMAL);
+  text("Cited by "+obj.Citation, x+padding+tWidth+140, y+padding*1.5 );
+
   //Title
   fill(0);
   textSize(15);
@@ -198,9 +140,14 @@ function createTooltip(x, y, obj){
   textSize(11);
   textStyle(NORMAL);
   text("Published in "+obj.Month+"/"+obj.Year, x+padding, y+padding+90);
-  text(obj.JCName, x+padding, y+padding+96, width-2*padding, 24);
+  if (obj.Type == "Paper" || obj.Rating == "N") {
+    text("["+obj.Rating + "] " + obj.JCName, x+padding, y+padding+96, width-2*padding, 24);
+  } else {
+    text(obj.JCName, x+padding, y+padding+96, width-2*padding, 24);
+  }
+
   text("Authors:", x+padding, y+padding+140, width-2*padding);
-  text(obj.Authors,x+padding, y+padding+155, width-2*padding);
+  text(obj.Authors,x+padding, y+padding+146, width-2*padding, 24);
 
 
 
