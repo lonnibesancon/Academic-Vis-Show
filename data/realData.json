@@ -1264,6 +1264,7 @@
     ],
     "Publication": [
       {
+        "Author": "W Liu",
         "Type": "Workshop",
         "Title":"Information Theory: An Analysis and Design Tool for HCI",
         "Category": "Conference",
@@ -1279,6 +1280,7 @@
         "Authors": "W Liu, Antti Oulasvirta, Olivier Rioul, Michel Beaudouin-Lafon, Yves Guiard"
       },
       {
+        "Author": "W Liu",
         "Type": "Paper",
         "Title":"BIGFile: Bayesian Information Gain for Fast File Retrieval",
         "Category": "Conference",
@@ -1295,6 +1297,7 @@
       },
       {
         "Type": "Paper",
+        "Author": "W Liu",
         "Title":"Information-Theoretic Analysis of Human Performance for Command Selection",
         "Category": "Conference",
         "JCName": "IFIP Conference on Human-Computer Interaction",
@@ -1310,6 +1313,7 @@
       },
       {
         "Type": "Paper",
+        "Author": "W Liu",
         "Title":"Effects of Frequency Distribution on Linear Menu Performance",
         "Category": "Conference",
         "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
@@ -1325,6 +1329,7 @@
       },
       {
         "Type": "Paper",
+        "Author": "W Liu",
         "Title":"BIGnav: Bayesian Information Gain for Guiding Multiscale Navigation",
         "Category": "Conference",
         "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
@@ -1340,6 +1345,7 @@
       },
       {
         "Type": "Workshop",
+        "Author": "W Liu",
         "Title":"A Bayesian Experimental Design Approach Maximizing Information Gain for Human-Computer Interaction",
         "Category": "Conference",
         "JCName": "ITA 2017-IEEE Information Theory and Applications Workshop",
@@ -1355,6 +1361,7 @@
       },
       {
         "Type": "Paper",
+        "Author": "W Liu",
         "Title":"SleepExplorer: a visualization tool to make sense of correlations between personal sleep data and contextual factors",
         "Category": "Journal",
         "JCName": "Personal and Ubiquitous Computing",
@@ -1370,6 +1377,7 @@
       },
       {
         "Type": "Paper",
+        "Author": "W Liu",
         "Title":"In bed with technology: challenges and opportunities for sleep tracking",
         "Category": "Conference",
         "JCName": "Proceedings of the Annual Meeting of the Australian Special Interest Group for Computer Human Interaction",
@@ -1385,6 +1393,7 @@
       },
       {
         "Type": "Chapter",
+        "Author": "W Liu",
         "Title":"Designing intelligent sleep analysis systems for automated contextual exploration on personal sleep-tracking data",
         "Category": "Conference",
         "JCName": "JSAI International Symposium on Artificial Intelligence",

@@ -148,18 +148,35 @@ function createTooltip(x, y, obj){
 
   text("Authors:", x+padding, y+padding+140, width-2*padding);
   text(obj.Authors,x+padding, y+padding+146, width-2*padding, 24);
-  // var authorIndex = obj.Authors.indexOf(obj.Author);
-  // stroke(0);
-  // strokeWeight(1);
-  // line(x+padding+authorIndex*8, y+padding+158,x+padding+authorIndex*8+20 ,y+padding+158);
 
+  // var person = obj.Author;
+  // var authorList = obj.Authors;
+  // boldName(person, authorList, x+padding, y+padding+146, width-2*padding);
 
+}
 
+function boldName(person, authorList, xPos, yPos, width){
 
+  var idx = authorList.indexOf(person);
 
+  var cut1 = idx;
+  var cut2 = idx + person.length;
 
+  var string1 = authorList.substring(0,cut1);
 
+  var stringbold = authorList.substring(cut1,cut2);
+  var string3 = authorList.substring(cut2,authorList.length);
 
+  textStyle(NORMAL);
+  text(string1,xPos, yPos);
+  var string1Width = textWidth(string1);
+
+  textStyle(BOLD);
+  text(stringbold, xPos + string1Width, yPos);
+  var stringboldWidth = textWidth(stringbold) + string1Width;
+
+  textStyle(NORMAL);
+  text(string3,xPos + stringboldWidth, yPos);
 }
 
 
@@ -179,15 +196,15 @@ function checkColor_independence(obj){
   let color_d = color('rgba(65, 184, 224, 0.9)');
   let color_i = color('rgba(228, 23, 109, 0.9)');
   // if (obj.Type == "Paper") {
-    if (obj.WithAdvisor == 'No') {
-      fill(color_i);
-      stroke(color_i);
-      return color('rgba(255, 112, 162, 0.9)');
-    } else {
-      fill(color_d);
-      stroke(color_d);
-      return color('rgba(112, 208, 240, 0.9)');
-    }
+  if (obj.WithAdvisor == 'No') {
+    fill(color_i);
+    stroke(color_i);
+    return color('rgba(255, 112, 162, 0.9)');
+  } else {
+    fill(color_d);
+    stroke(color_d);
+    return color('rgba(112, 208, 240, 0.9)');
+  }
   // }else {
   //   fill('rgba(152, 168, 191, 0.9)');
   //   stroke('rgba(152, 168, 191, 0.9)');
