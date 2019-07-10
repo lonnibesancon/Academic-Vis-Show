@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 757 207" style="enable-background:new 0 0 757 207;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5FC4E5;}
+	.st1{fill:#E4176D;}
+	.st2{fill:#979797;}
+	.st3{fill:none;stroke:#979797;stroke-width:0.3;stroke-linecap:square;}
+	.st4{fill:#4A4A4A;}
+	.st5{font-family:'Times-BoldItalic';}
+	.st6{font-size:9px;}
+	.st7{font-family:'TimesNewRomanPSMT';}
+	.st8{fill:#61A3A3;fill-opacity:0.18;}
+	.st9{fill:#61A3A3;fill-opacity:0.23;}
+	.st10{fill:#61A3A3;fill-opacity:0.25;}
+	.st11{fill:#61A3A3;fill-opacity:0.32;}
+	.st12{fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:square;}
+	.st13{font-family:'PlayfairDisplay-Bold';}
+	.st14{font-size:10px;}
+	.st15{fill-opacity:0.1492;stroke:#000000;stroke-width:4;}
+	.st16{fill-opacity:0.1492;stroke:#000000;stroke-width:6;}
+	.st17{fill-opacity:0.1492;stroke:#000000;stroke-width:0.5;}
+	.st18{fill:none;stroke:#000000;stroke-width:4;}
+	.st19{fill:none;stroke:#000000;stroke-width:0.5;}
+	.st20{fill:none;stroke:#000000;stroke-width:3;}
+	.st21{fill:#9B9B9B;}
+	.st22{fill:#009BB3;}
+	.st23{font-family:'TimesNewRomanPS-BoldItalicMT';}
+	.st24{fill:#D00B5E;}
+	.st25{font-size:8px;}
+</style>
+<title>Legend</title>
+<desc>Created with Sketch.</desc>
+<g id="Legend">
+	<circle id="Oval-Copy" class="st0" cx="293" cy="108" r="6"/>
+	<circle id="Oval-Copy-8" class="st1" cx="293" cy="153" r="6"/>
+	<circle id="Oval-Copy-2" class="st0" cx="323" cy="109" r="5"/>
+	<circle id="Oval-Copy-9" class="st1" cx="323" cy="152" r="5"/>
+	<circle id="Oval-Copy-3" class="st0" cx="351" cy="110" r="4"/>
+	<circle id="Oval-Copy-10" class="st1" cx="351" cy="151" r="4"/>
+	<rect id="Rectangle" x="387" y="107" class="st0" width="7" height="7"/>
+	<rect id="Rectangle-Copy" x="387" y="147" class="st1" width="7" height="7"/>
+	<path id="Combined-Shape" class="st2" d="M343,130.9v0.3h-11v-0.3H343z M343,131.1h-11v-0.3h11V131.1z M361,131.1v-0.3h19.1v0.3
+		H361z M361,130.9h19.1v0.3H361V130.9z M314,130.9v0.3h-12v-0.3H314z M314,131.1h-12v-0.3h12V131.1z M284,130.9v0.3h-14v-0.3H284z
+		 M284,131.1v-0.3h-14v0.3H284z M252,130.9v0.3h-13.2v-0.3H252z M252,131.1h-13.2v-0.3H252V131.1z"/>
+	<path id="Line-5" class="st3" d="M238.8,128.5v5"/>
+	<text transform="matrix(1 0 0 1 257 134)" class="st4 st5 st6">A*</text>
+	<g id="Group" transform="translate(16.000000, 84.000000)">
+		<text transform="matrix(1 0 0 1 129 8)" class="st7 st6">40</text>
+		<text transform="matrix(1 0 0 1 129 35)" class="st7 st6">20</text>
+		<text transform="matrix(1 0 0 1 129 54)" class="st7 st6">10</text>
+		<text transform="matrix(1 0 0 1 131 69)" class="st7 st6">5</text>
+		<circle id="Oval-Copy-4" class="st8" cx="44.5" cy="51.5" r="44.5"/>
+		<circle id="Oval-Copy-5" class="st9" cx="45" cy="63" r="33"/>
+		<circle id="Oval-Copy-6" class="st10" cx="44.5" cy="72.5" r="23.5"/>
+		<circle id="Oval-Copy-7" class="st11" cx="44.5" cy="80.5" r="15.5"/>
+		<polyline id="Line-2" class="st12" points="119.7,67 63.4,67 57,73.3 		"/>
+		<polyline id="Line-2-Copy" class="st12" points="119.7,51 63.4,51 57,57.3 		"/>
+		<polyline id="Line-2-Copy-2" class="st12" points="119.7,32 63.4,32 57,38.3 		"/>
+		<polyline id="Line-2-Copy-3" class="st12" points="119.7,6 63.4,6 57,12.3 		"/>
+	</g>
+	<text transform="matrix(1 0 0 1 20 37)" class="st13 st14">Citation </text>
+	<text transform="matrix(1 0 0 1 20 51)" class="st13 st14">Count</text>
+	<circle id="Oval" class="st15" cx="555" cy="107" r="8"/>
+	<circle id="Oval-Copy-17" class="st16" cx="555" cy="137" r="7"/>
+	<circle id="Oval-Copy-19" cx="555" cy="167" r="10"/>
+	<g id="Group-4" transform="translate(622.000000, 127.000000)">
+		<circle id="Oval-Copy-18" class="st17" cx="10" cy="10" r="9.8"/>
+		<circle id="Oval_1_" cx="10" cy="10" r="4"/>
+	</g>
+	<g id="Group-2" transform="translate(583.000000, 97.000000)">
+		<circle id="Oval-Copy-12" class="st17" cx="10" cy="10" r="9.8"/>
+		<circle id="Oval-Copy-13" class="st18" cx="10" cy="10" r="4"/>
+	</g>
+	<g id="Group-3" transform="translate(622.000000, 97.000000)">
+		<circle id="Oval-Copy-14" class="st17" cx="10" cy="10" r="9.8"/>
+		<circle id="Oval-Copy-15" class="st19" cx="10" cy="10" r="6"/>
+		<circle id="Oval-Copy-16" cx="10" cy="10" r="2"/>
+	</g>
+	<circle id="Oval_2_" class="st19" cx="555" cy="107" r="2"/>
+	<path id="Line" class="st20" d="M20,18.5h13.5"/>
+	<path id="Line-Copy" class="st20" d="M238,18.5h13.5"/>
+	<path id="Line-Copy-2" class="st20" d="M545,18.5h13.5"/>
+	<text transform="matrix(1 0 0 1 290 134)" class="st4 st5 st6">A</text>
+	<text transform="matrix(1 0 0 1 320 134)" class="st4 st5 st6">B</text>
+	<text transform="matrix(1 0 0 1 348 134)" class="st4 st5 st6">C</text>
+	<text transform="matrix(1 0 0 1 386 127)" class="st4 st5 st6">Other Publications</text>
+	<text transform="matrix(1 0 0 1 386 138)" class="st21 st5 st6">Poster/Thesis/Workshop…</text>
+	<text transform="matrix(1 0 0 1 238 37)" class="st13 st14">Subjective importance rating for </text>
+	<text transform="matrix(1 0 0 1 238 50)" class="st13 st14">Journal/Conference</text>
+	<text transform="matrix(1 0 0 1 545 37)" class="st13 st14">Author</text>
+	<text transform="matrix(1 0 0 1 577.3494 37)" class="st13 st14"> </text>
+	<text transform="matrix(1 0 0 1 545 50)" class="st13 st14">Order</text>
+	<text transform="matrix(1 0 0 1 252 83)" class="st7 st6">Published </text>
+	<text transform="matrix(1 0 0 1 288.7534 83)" class="st22 st23 st6">with</text>
+	<text transform="matrix(1 0 0 1 305.7627 83)" class="st7 st6">Ph.D Advisor</text>
+	<text transform="matrix(1 0 0 1 252 180)" class="st7 st6">Published </text>
+	<text transform="matrix(1 0 0 1 288.7534 180)" class="st24 st23 st6">without</text>
+	<text transform="matrix(1 0 0 1 317.7686 180)" class="st7 st6">Ph.D Advisor</text>
+	<circle id="Oval_3_" class="st0" cx="260" cy="106" r="8"/>
+	<circle id="Oval-Copy-11" class="st1" cx="260" cy="155" r="8"/>
+	<path id="Line-4" class="st3" d="M567.5,107h13.4"/>
+	<path id="Line-4-Copy" class="st3" d="M606.5,107h13.4"/>
+	<path id="Line-4-Copy-3" class="st3" d="M566.5,137h52.9"/>
+	<path id="Line-4-Copy-2" class="st2" d="M651.1,107.1h-6.6h-0.2v-0.3h0.2h6.6v-2.4v-0.2h0.3v0.2v5.2v0.2h-0.3v-0.2V107.1z"/>
+	<path id="Line-4-Copy-4" class="st2" d="M651.1,137.1h-6.6h-0.2v-0.3h0.2h6.6v-2.5v-0.1h0.3v0.1v5.2v0.1h-0.3v-0.1V137.1z"/>
+	<path id="Line-4-Copy-5" class="st2" d="M651.1,167.1h-84.6h-0.2v-0.3h0.2h84.6v-2.5v-0.1h0.3v0.1v5.2v0.1h-0.3v-0.1V167.1z"/>
+	<text transform="matrix(1 0 0 1 661 109)" class="st4 st5 st25">More than three authors</text>
+	<text transform="matrix(1 0 0 1 548.8018 75)" class="st23 st6">1st</text>
+	<text transform="matrix(1 0 0 1 559.3047 75)" class="st23 st6"> </text>
+	<text transform="matrix(1 0 0 1 542.5 84.0791)" class="st5 st6">author</text>
+	<text transform="matrix(1 0 0 1 581 75)" class="st23 st6">Middle</text>
+	<text transform="matrix(1 0 0 1 606.998 75)" class="st23 st6"> </text>
+	<text transform="matrix(1 0 0 1 582.4458 84.0791)" class="st5 st6">author</text>
+	<text transform="matrix(1 0 0 1 623.053 75)" class="st23 st6">Last</text>
+	<text transform="matrix(1 0 0 1 639.0535 75)" class="st23 st6"> </text>
+	<text transform="matrix(1 0 0 1 619.5 84.0791)" class="st5 st6">author</text>
+	<text transform="matrix(1 0 0 1 661 139)" class="st4 st5 st25">Two authors</text>
+	<text transform="matrix(1 0 0 1 661 169)" class="st4 st5 st25">One author</text>
+</g>
+</svg>
