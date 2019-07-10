@@ -1,6 +1,7 @@
 .header{
   margin-top: 50px;
   padding-left: 50px;
+  margin-bottom: 40px;
 
 }
 
@@ -54,6 +55,7 @@
   padding-bottom: 50px;
   padding-top: 30px;
   background-color: #f7f7f7;
+  /* width: 1400px; */
 }
 
 

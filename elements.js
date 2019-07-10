@@ -113,9 +113,15 @@ function createTooltip(x, y, obj){
   noStroke();
   textStyle(BOLDITALIC);
   textSize(11);
-  var type = obj.Category;
-  text(type+" Paper", x+padding, y+padding*1.5);
-  let tWidth = textWidth(type+" Paper");
+  if (obj.Type == "Paper") {
+    var typeStr = obj.Category+" Paper";
+    text(typeStr, x+padding, y+padding*1.5);
+  } else {
+    var typeStr = obj.Type;
+    text(typeStr, x+padding, y+padding*1.5);
+  }
+  let tWidth = textWidth(typeStr);
+
   if (obj.WithAdvisor == "Yes") {
     fill("#4BB7DB");
     text("With Ph.D Advisor", x+padding+tWidth+10, y+padding*1.5);
