@@ -23,13 +23,13 @@ class PubCircle {
 
     if (d < this.circleSize) {
       if (x<1000) {
-        if (y<500) {
+        if (y<400) {
           createTooltip(this.xPos+10, this.yPos+10, this.obj);
         } else {
           createTooltip(this.xPos+10, this.yPos-10-200, this.obj);
         }
       } else {
-        if (y<500) {
+        if (y<400) {
           createTooltip(this.xPos-10-300, this.yPos+10, this.obj);
         } else {
           createTooltip(this.xPos-10-300, this.yPos-10-200, this.obj);

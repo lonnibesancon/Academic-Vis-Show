@@ -9,7 +9,11 @@ function citationCircle(obj, xPos, yPos){
 
   var backCircleSize = map(Math.pow(obj.Citation, exponent), 0, Math.pow(40, exponent), 4, max_radius);
 
-  fill('rgba(97, 163, 163, 0.2)');
+  if (obj.WithAdvisor == 'No') {
+    fill('rgba(207, 130, 130, 0.2)');
+  } else {
+    fill('rgba(97, 163, 163, 0.2)');
+  }
   noStroke();
   ellipse(xPos, yPos, backCircleSize, backCircleSize);
 
@@ -94,7 +98,7 @@ function createTooltip(x, y, obj){
   var padding = 16;
   var margin = 20;
   var width = 300;
-  var height =200;
+  var height =220;
 
   rectMode(CORNER);
   noStroke();
@@ -140,20 +144,20 @@ function createTooltip(x, y, obj){
   textSize(15);
   textStyle(BOLD);
   // rectMode(CORNER);
-  text(obj.Title, x+padding, y+padding+30, width-2*padding, 40);
+  text(obj.Title, x+padding, y+padding+30, width-2*padding, 60);
 
   //Detail
   textSize(11);
   textStyle(NORMAL);
-  text("Published in "+obj.Month+"/"+obj.Year, x+padding, y+padding+90);
+  text("Published in "+obj.Month+"/"+obj.Year, x+padding, y+padding+110);
   if (obj.Type == "Paper" || obj.Rating == "N") {
-    text("["+obj.Rating + "] " + obj.JCName, x+padding, y+padding+96, width-2*padding, 24);
+    text("["+obj.Rating + "] " + obj.JCName, x+padding, y+padding+118, width-2*padding, 40);
   } else {
-    text(obj.JCName, x+padding, y+padding+96, width-2*padding, 24);
+    text(obj.JCName, x+padding, y+padding+118, width-2*padding, 40);
   }
 
-  text("Authors:", x+padding, y+padding+140, width-2*padding);
-  text(obj.Authors,x+padding, y+padding+146, width-2*padding, 24);
+  text("Authors:", x+padding, y+padding+160, width-2*padding);
+  text(obj.Authors,x+padding, y+padding+166, width-2*padding, 24);
 
   // var person = obj.Author;
   // var authorList = obj.Authors;
