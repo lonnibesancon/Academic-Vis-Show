@@ -1302,9 +1302,9 @@
     ]
   },
   {
-    "Name": "Wanyu Liu",
+    "Name": "Mary",
     "Age": "32.2",
-    "Research": ["HCI", "Computational Interaction", "Co-adapative Systems"],
+    "Research": ["HCI", "Interaction Design"],
     "Mobility": [
       {
         "Position": "Master",
@@ -1318,21 +1318,21 @@
         "StartDate": "11/2015",
         "EndDate": "11/2018",
         "Location": "Paris, France",
-        "Institute": "Télécom ParisTech"
+        "Institute": "University A"
       },
       {
         "Position": "Postdoc",
         "StartDate": "03/2019",
         "EndDate": "08/2019",
         "Location": "Paris, France",
-        "Institute": "IRCAM"
+        "Institute": "University C"
       }
     ],
     "Publication": [
       {
-        "Author": "W Liu",
+        "Author": "Mary",
         "Type": "Workshop",
-        "Title":"Information Theory: An Analysis and Design Tool for HCI",
+        "Title":"Title of this Publication",
         "Category": "Conference",
         "JCName": "CHI'19 Workshop on Computational Modeling in Human-Computer Interaction",
         "Rating": "/",
@@ -1343,14 +1343,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 5,
-        "Authors": "W Liu, Antti Oulasvirta, Olivier Rioul, Michel Beaudouin-Lafon, Yves Guiard"
+        "Authors": "Authors List"
       },
       {
-        "Author": "W Liu",
+        "Author": "Mary",
         "Type": "Paper",
-        "Title":"BIGFile: Bayesian Information Gain for Fast File Retrieval",
+        "Title":"Title of this Publication",
         "Category": "Conference",
-        "JCName": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
+        "JCName": "Conference Name",
         "Rating": "A*",
         "Year": 2018,
         "Month": 4,
@@ -1359,14 +1359,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 5,
-        "Authors": "W Liu, O Rioul, J McGrenere, WE Mackay, M Beaudouin-Lafon"
+        "Authors": "Authors List"
       },
       {
         "Type": "Paper",
-        "Author": "W Liu",
-        "Title":"Information-Theoretic Analysis of Human Performance for Command Selection",
+        "Author": "Mary",
+        "Title":"Title of this Publication",
         "Category": "Conference",
-        "JCName": "IFIP Conference on Human-Computer Interaction",
+        "JCName": "Conference Name",
         "Rating": "A",
         "Year": 2017,
         "Month": 9,
@@ -1375,14 +1375,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 4,
-        "Authors": "W Liu, O Rioul, M Beaudouin-Lafon, Y Guiard"
+        "Authors": "Authors List"
       },
       {
         "Type": "Paper",
-        "Author": "W Liu",
-        "Title":"Effects of Frequency Distribution on Linear Menu Performance",
+        "Author": "Mary",
+        "Title":"Title of this Publication",
         "Category": "Conference",
-        "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+        "JCName": "Conference Name",
         "Rating": "A*",
         "Year": 2017,
         "Month": 5,
@@ -1391,14 +1391,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 3,
-        "Authors": "W Liu, G Bailly, A Howes"
+        "Authors": "Authors List"
       },
       {
         "Type": "Paper",
-        "Author": "W Liu",
-        "Title":"BIGnav: Bayesian Information Gain for Guiding Multiscale Navigation",
+        "Author": "Mary",
+        "Title":"Title of this Publication",
         "Category": "Conference",
-        "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+        "JCName": "Conference Name",
         "Rating": "A*",
         "Year": 2017,
         "Month": 5,
@@ -1407,14 +1407,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 4,
-        "Authors": "W Liu, RL D'Oliveira, M Beaudouin-Lafon, O Rioul"
+        "Authors": "Authors List"
       },
       {
         "Type": "Workshop",
-        "Author": "W Liu",
-        "Title":"A Bayesian Experimental Design Approach Maximizing Information Gain for Human-Computer Interaction",
+        "Author": "Mary",
+        "Title":"Title of this Publication",
         "Category": "Conference",
-        "JCName": "ITA 2017-IEEE Information Theory and Applications Workshop",
+        "JCName": "Conference Name",
         "Rating": "/",
         "Year": 2017,
         "Month": 2,
@@ -1423,55 +1423,55 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 4,
-        "Authors": "W Liu, RL D'Oliveira, M Beaudouin-Lafon, O Rioul"
+        "Authors": "Authors List"
       },
       {
         "Type": "Paper",
-        "Author": "W Liu",
-        "Title":"SleepExplorer: a visualization tool to make sense of correlations between personal sleep data and contextual factors",
+        "Author": "Mary",
+        "Title":"Title of this Publication",
         "Category": "Journal",
-        "JCName": "Personal and Ubiquitous Computing",
+        "JCName": "Jornal Name",
         "Rating": "B",
         "Year": 2016,
         "Month": 11,
         "Citation": 19,
-        "WithAdvisor": "No",
+        "WithAdvisor": "Yes",
         "Star": "No",
         "Order": 3,
         "AuthorCount": 7,
-        "Authors": "Z Liang, B Ploderer, W Liu, Y Nagata, J Bailey, L Kulik, Y Li"
+        "Authors": "Authors List"
       },
       {
         "Type": "Paper",
-        "Author": "W Liu",
-        "Title":"In bed with technology: challenges and opportunities for sleep tracking",
+        "Author": "Mary",
+        "Title":"Title of this Publication",
         "Category": "Conference",
-        "JCName": "Proceedings of the Annual Meeting of the Australian Special Interest Group for Computer Human Interaction",
+        "JCName": "Conference Name",
         "Rating": "N",
         "Year": 2015,
         "Month": 12,
         "Citation": 27,
-        "WithAdvisor": "No",
+        "WithAdvisor": "Yes",
         "Star": "No",
         "Order": 1,
         "AuthorCount": 3,
-        "Authors": "W Liu, B Ploderer, T Hoang"
+        "Authors": "Authors List"
       },
       {
         "Type": "Chapter",
-        "Author": "W Liu",
-        "Title":"Designing intelligent sleep analysis systems for automated contextual exploration on personal sleep-tracking data",
+        "Author": "Mary",
+        "Title":"Title of this Publication",
         "Category": "Conference",
-        "JCName": "JSAI International Symposium on Artificial Intelligence",
+        "JCName": "Conference Name",
         "Rating": "/",
         "Year": 2015,
         "Month": 11,
         "Citation": 1,
-        "WithAdvisor": "No",
+        "WithAdvisor": "Yes",
         "Star": "No",
         "Order": 2,
         "AuthorCount": 6,
-        "Authors": "Z Liang, W Liu, B Ploderer, J Bailey, L Kulik, Y Li"
+        "Authors": "Authors List"
       }
     ]
   }

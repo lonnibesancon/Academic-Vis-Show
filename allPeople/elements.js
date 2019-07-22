@@ -45,9 +45,11 @@ function axis(mobiObj, x, y){
 
     var c;
     if (positionName == "PhD") {
-      c = 200;
-    } else {
-      c = 60;
+      c = 140;
+    } else if (positionName == "Master") {
+      c = 220;
+    }else {
+      c = 40;
     }
     mobilityBg(x_+startLocation, y_+yPosition, duration, 4, c);
 
