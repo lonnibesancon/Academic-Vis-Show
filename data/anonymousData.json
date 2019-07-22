@@ -1311,28 +1311,28 @@
         "StartDate": "08/2013",
         "EndDate": "07/2015",
         "Location": "Melbourne, Australia",
-        "Institute": "University A"
+        "Institute": "Australia"
       },
       {
         "Position": "PhD",
         "StartDate": "11/2015",
         "EndDate": "11/2018",
         "Location": "Paris, France",
-        "Institute": "University A"
+        "Institute": "France"
       },
       {
         "Position": "Postdoc",
         "StartDate": "03/2019",
         "EndDate": "08/2019",
         "Location": "Paris, France",
-        "Institute": "University C"
+        "Institute": "France"
       }
     ],
     "Publication": [
       {
         "Author": "Mary",
         "Type": "Workshop",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
         "JCName": "CHI'19 Workshop on Computational Modeling in Human-Computer Interaction",
         "Rating": "/",
@@ -1343,14 +1343,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 5,
-        "Authors": "Authors List"
+        "Authors": "Mary, Anonymity, Anonymity, Anonymity, Anonymity"
       },
       {
         "Author": "Mary",
         "Type": "Paper",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
-        "JCName": "Conference Name",
+        "JCName": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
         "Rating": "A*",
         "Year": 2018,
         "Month": 4,
@@ -1359,14 +1359,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 5,
-        "Authors": "Authors List"
+        "Authors": "Mary, Anonymity, Anonymity, Anonymity, Anonymity"
       },
       {
         "Type": "Paper",
         "Author": "Mary",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
-        "JCName": "Conference Name",
+        "JCName": "IFIP Conference on Human-Computer Interaction",
         "Rating": "A",
         "Year": 2017,
         "Month": 9,
@@ -1375,14 +1375,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 4,
-        "Authors": "Authors List"
+        "Authors": "Mary, Anonymity, Anonymity, Anonymity"
       },
       {
         "Type": "Paper",
         "Author": "Mary",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
-        "JCName": "Conference Name",
+        "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
         "Rating": "A*",
         "Year": 2017,
         "Month": 5,
@@ -1391,14 +1391,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 3,
-        "Authors": "Authors List"
+        "Authors": "Mary, Anonymity, Anonymity"
       },
       {
         "Type": "Paper",
         "Author": "Mary",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
-        "JCName": "Conference Name",
+        "JCName": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
         "Rating": "A*",
         "Year": 2017,
         "Month": 5,
@@ -1407,14 +1407,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 4,
-        "Authors": "Authors List"
+        "Authors": "Mary, Anonymity, Anonymity, Anonymity"
       },
       {
         "Type": "Workshop",
         "Author": "Mary",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
-        "JCName": "Conference Name",
+        "JCName": "ITA 2017-IEEE Information Theory and Applications Workshop",
         "Rating": "/",
         "Year": 2017,
         "Month": 2,
@@ -1423,14 +1423,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 4,
-        "Authors": "Authors List"
+        "Authors": "Mary, Anonymity, Anonymity, Anonymity"
       },
       {
         "Type": "Paper",
         "Author": "Mary",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Journal",
-        "JCName": "Jornal Name",
+        "JCName": "Personal and Ubiquitous Computing",
         "Rating": "B",
         "Year": 2016,
         "Month": 11,
@@ -1439,14 +1439,14 @@
         "Star": "No",
         "Order": 3,
         "AuthorCount": 7,
-        "Authors": "Authors List"
+        "Authors": "Anonymity, Anonymity, Mary, Anonymity, Anonymity, Anonymity, Anonymity"
       },
       {
         "Type": "Paper",
         "Author": "Mary",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
-        "JCName": "Conference Name",
+        "JCName": "Proceedings of the Annual Meeting of the Australian Special Interest Group for Computer Human Interaction",
         "Rating": "N",
         "Year": 2015,
         "Month": 12,
@@ -1455,14 +1455,14 @@
         "Star": "No",
         "Order": 1,
         "AuthorCount": 3,
-        "Authors": "Authors List"
+        "Authors": "Mary, Anonymity, Anonymity"
       },
       {
         "Type": "Chapter",
         "Author": "Mary",
-        "Title":"Title of this Publication",
+        "Title":"Title of this publication",
         "Category": "Conference",
-        "JCName": "Conference Name",
+        "JCName": "JSAI International Symposium on Artificial Intelligence",
         "Rating": "/",
         "Year": 2015,
         "Month": 11,
@@ -1471,7 +1471,7 @@
         "Star": "No",
         "Order": 2,
         "AuthorCount": 6,
-        "Authors": "Authors List"
+        "Authors": "Anonymity, Mary, Anonymity, Anonymity, Anonymity, Anonymity"
       }
     ]
   }
